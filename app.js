@@ -12,7 +12,7 @@ const server = http.createServer((req, res) => {
 	}
 
 	res.writeHead(404);
-	res.end(JSON.stringify({ error: 'Route not found' }));
+	res.end(JSON.stringify({ error: 'Route found' }));
 });
 
 server.listen(PORT, () => {
